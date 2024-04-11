@@ -1,0 +1,74 @@
+
+.frame {
+    padding: 20px;
+    margin: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white ;
+}
+
+.border-area{
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 15px;
+    
+}
+
+.margin-area{
+    background-color: rgba(218, 223, 248, 0.816);
+    padding: 20px;
+
+    
+}
+
+.content {
+    background-color: yellow;
+    padding: 20px;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 5px;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    background-color: rgba(218, 223, 248, 0.816); 
+    color: #fff; 
+    border: none; 
+    border-radius: 15px; 
+    cursor: pointer; 
+}
+
+
+button:hover {
+    background-color: #8e969f; /* Change background color on hover */
+}
+
+
+button:active {
+    background-color: #004080; /* Change background color when button is clicked */
+}
+
+
+button i {
+    margin-right: 5px; /* Add space between icon and text */
+}
+
+#plus, #minus, #reset {
+    color: black;
+}
+
+#counter {
+    font-size: 100px;
+}
