@@ -9,14 +9,14 @@
     background-color:white ;
 }
 
-.border-area{
+.inner-container{
     background-color: whitesmoke;
     padding: 20px;
     border-radius: 15px;
     
 }
 
-.margin-area{
+.outer-container{
     background-color: rgba(218, 223, 248, 0.816);
     padding: 20px;
 
